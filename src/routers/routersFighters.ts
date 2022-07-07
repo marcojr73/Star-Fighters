@@ -1,5 +1,6 @@
 import { Router } from "express"
 import { battle, ranking } from "../controllers/controllerFighter.js"
+import { validateData } from "../middlewares/middlewareFighter.js"
 
 const routerFighters = Router()
 
